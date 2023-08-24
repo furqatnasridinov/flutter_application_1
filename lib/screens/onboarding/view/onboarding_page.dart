@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/home/home.dart';
 import 'package:flutter_application_1/screens/home_bottom_navigation.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../custom_widgets/custom_widgets.dart';
@@ -13,7 +12,7 @@ class OnBoardingPage extends StatelessWidget {
       backgroundColor: Colors.grey.shade200,
       body: SafeArea(
         child: Container(
-          margin: EdgeInsets.all(8.r),
+          //margin: EdgeInsets.all(8.r),
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(10.r),
